@@ -1,0 +1,21 @@
+<div class="inner">
+    <header class="major special">
+        <h2>{{ include.section.title }}</h2>
+        {{ include.section.subtitle | markdownify }}
+    </header>
+    <div class="spotlights">
+        {% for entries in include.section.home_spotlights %}
+            <section>
+                {% if entries.img_path %}
+                    <div class="image"><img src="{{ entries.img_path | relative_url }}" alt="" /></div>
+                {% endif %}
+                <div class="content">
+                    <header class="major">
+                        <h3>{{ entries.title }}</h3>
+                    </header>
+                    {{ entries.text | markdownify }}
+                </div>
+            </section>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<!-- Header -->
+<section id="header" {% if page.layout == 'home' %}class="alt"{% endif %}>
+    <!-- Logo -->
+    <a href="{{ site.baseurl | relative_url }}" class="logo"><strong>{{ site.title }}</strong></a>
+    <!-- Nav -->
+    <nav id="nav">
+        {% assign menu = site.menus.main %}
+        
+        {% include menu.html menu=menu page=page %}
+    </nav>
+</section>
