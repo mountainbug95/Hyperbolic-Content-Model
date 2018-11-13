@@ -20,8 +20,8 @@ fields:
     label: Content Image
     description: The image displayed in the page content
   - type: text
-    name: template
-    label: Template
+    name: layout
+    label: Layout
     hidden: true
     default: page
     config:
