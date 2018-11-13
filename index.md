@@ -22,7 +22,7 @@ sections:
           ornare velit lacus varius enim ullamcorper proin magna etiam
           consequat.
     component: spotlight.html
-    template: spotlight
+    type: spotlight
   - title: Dolor feugiat
     subtitle: |-
       Praesent dapibus neque id cursus faucibus consequat  
@@ -52,7 +52,7 @@ sections:
             Praesent dapibus neque id faucibus sed neque egestas auguae ipsum
             dolor.
     component: features.html
-    template: features
+    type: features
   - title: Nisl consequat
     subtitle: |-
       Praesent dapibus neque id cursus faucibus consequat  
@@ -63,7 +63,7 @@ sections:
         is_primary: true
         is_scrolly: false
     component: actions.html
-    template: actions
+    type: actions
 menus:
   main:
     title: Home
