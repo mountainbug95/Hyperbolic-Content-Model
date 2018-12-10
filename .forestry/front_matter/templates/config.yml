@@ -67,6 +67,7 @@ fields:
             template: action
   - type: field_group
     name: palettes
+    label: Palettes
     hidden: true
     fields:
       - type: field_group
