@@ -71,31 +71,25 @@ fields:
     fields:
       - type: field_group
         name: blue
+        label: Blue
         fields:
-          - type: field_group
-            name: sass
-            fields:
-              - type: text
-                name: accent1
-              - type: text
-                name: accent2
+          - type: include
+            name: include_palette
+            label: Palette
+            template: palette
       - type: field_group
         name: green
+        label: Green
         fields:
-          - type: field_group
-            name: sass
-            fields:
-              - type: text
-                name: accent1
-              - type: text
-                name: accent2
+          - type: include
+            name: include_palette
+            label: Palette
+            template: palette
       - type: field_group
         name: orange
+        label: Orange
         fields:
-          - type: field_group
-            name: sass
-            fields:
-              - type: text
-                name: accent1
-              - type: text
-                name: accent2
+          - type: include
+            name: include_palette
+            label: Palette
+            template: palette
