@@ -95,6 +95,7 @@ collections:
           - name: palettes
             widget: hidden
             required: false
+            label: Palettes
   - name: home
     label: Home
     files:
@@ -154,20 +155,21 @@ collections:
                   - name: component
                     widget: hidden
                     required: true
+                    label: Section Component
                     default: spotlight.html
               - name: features
                 widget: object
                 label: Features Section
                 fields:
-                  - name: section_id
-                    widget: string
-                    required: false
-                    label: Section ID
                   - name: subtitle
                     widget: markdown
                     required: false
                     label: Section Subtitle
                     hint: The text displayed below the section title
+                  - name: section_id
+                    widget: string
+                    required: false
+                    label: Section ID
                   - name: title
                     widget: string
                     required: true
@@ -227,20 +229,21 @@ collections:
                   - name: component
                     widget: hidden
                     required: true
+                    label: Section Component
                     default: features.html
               - name: actions
                 widget: object
                 label: Actions Section
                 fields:
-                  - name: section_id
-                    widget: string
-                    required: false
-                    label: Section ID
                   - name: subtitle
                     widget: markdown
                     required: false
                     label: Section Subtitle
                     hint: The text displayed below the section title
+                  - name: section_id
+                    widget: string
+                    required: false
+                    label: Section ID
                   - name: title
                     widget: string
                     required: true
@@ -279,6 +282,7 @@ collections:
                   - name: component
                     widget: hidden
                     required: true
+                    label: Section Component
                     default: actions.html
           - name: layout
             widget: hidden
